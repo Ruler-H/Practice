@@ -13,7 +13,7 @@ public class if5 {
 		}else if(pw.equals("system")){
 			System.out.print("로그인 성공");
 		}else {
-			System.out.print("못된 비밀번호");
+			System.out.print("잘못된 비밀번호");
 		}
 
 	}
