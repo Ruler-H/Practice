@@ -4,16 +4,16 @@ public class if5 {
 
 	public static void main(String[] args) {
 		java.util.Scanner sc = new java.util.Scanner(System.in);
-		System.out.print("¾ÆÀÌµğ : ");
+		System.out.print("ì•„ì´ë”” : ");
 		String id = sc.nextLine();
-		System.out.print("ºñ¹Ğ¹øÈ£ : ");
+		System.out.print("ë¹„ë°€ë²ˆí˜¸ : ");
 		String pw = sc.nextLine();
 		if(!id.equals("root")) {
-			System.out.print("¾ÆÀÌµğ°¡ ¾ø´Â ¾ÆÀÌµğ");
+			System.out.print("ì•„ì´ë””ê°€ ì—†ëŠ” ì•„ì´ë””");
 		}else if(pw.equals("system")){
-			System.out.print("·Î±×ÀÎ ¼º°ø");
+			System.out.print("ë¡œê·¸ì¸ ì„±ê³µ");
 		}else {
-			System.out.print("Àß¸øµÈ ºñ¹Ğ¹øÈ£");
+			System.out.print("ì˜ëª»ëœ ë¹„ë°€ë²ˆí˜¸");
 		}
 
 	}
