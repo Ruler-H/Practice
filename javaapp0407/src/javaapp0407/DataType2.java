@@ -3,23 +3,23 @@ package javaapp0407;
 public class DataType2 {
 
 	public static void main(String[] args) {
-		// 22¾ï ÀÌ»óÀÇ Á¤¼ö´Â long ÇüÀ¸·Î Ç¥Çö
+		// 22ì–µ ì´ìƒì˜ ì •ìˆ˜ëŠ” long í˜•ìœ¼ë¡œ í‘œí˜„
 		long n = 2200000000L;
 		
-		//finalÀÌ ºÙÀº º¯¼ö´Â µ¥ÀÌÅÍ¸¦ ¼öÁ¤ÇÒ ¼ö ¾ø½À´Ï´Ù.
-		//ÀÌ¸§À» ¸ðµÎ ´ë¹®ÀÚ·Î ¸¸µå´Â °ÍÀ» ±ÇÀå
+		//finalì´ ë¶™ì€ ë³€ìˆ˜ëŠ” ë°ì´í„°ë¥¼ ìˆ˜ì •í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
+		//ì´ë¦„ì„ ëª¨ë‘ ëŒ€ë¬¸ìžë¡œ ë§Œë“œëŠ” ê²ƒì„ ê¶Œìž¥
 		final int AGE = 29;
 		
-		//¼öÁ¤ °¡´ÉÇÑ µ¥ÀÌÅÍ
+		//ìˆ˜ì • ê°€ëŠ¥í•œ ë°ì´í„°
 		int balance = 1000;
-		//¼öÁ¤ ºÒ°¡´ÉÇÑ µ¥ÀÌÅÍ
+		//ìˆ˜ì • ë¶ˆê°€ëŠ¥í•œ ë°ì´í„°
 		final int READONLY = balance;
 		
-		//ÀÛÀº Å©±âÀÇ ÀÚ·áÇü µ¥ÀÌÅÍ´Â Å« ÀÚ·áÇü¿¡ ´ëÀÔ °¡´É
+		//ìž‘ì€ í¬ê¸°ì˜ ìžë£Œí˜• ë°ì´í„°ëŠ” í° ìžë£Œí˜•ì— ëŒ€ìž… ê°€ëŠ¥
 		double d = READONLY;
 		
-		//Å« Å©±âÀÇ ÀÚ·áÇü µ¥ÀÌÅÍ¸¦ ÀÛÀº ÀÚ·áÇü µ¥ÀÌÅÍ¿¡ ´ëÀÔÇÏ´Â °ÍÀº ¾ÈµÊ
-		int i = 3.14; //½Ç¼ö´Â Á¤¼öº¯¼ö¿¡ ´ëÀÔ¾ÈµÊ
+		//í° í¬ê¸°ì˜ ìžë£Œí˜• ë°ì´í„°ë¥¼ ìž‘ì€ ìžë£Œí˜• ë°ì´í„°ì— ëŒ€ìž…í•˜ëŠ” ê²ƒì€ ì•ˆë¨
+		int i = 314; //ì‹¤ìˆ˜ëŠ” ì •ìˆ˜ë³€ìˆ˜ì— ëŒ€ìž…ì•ˆë¨
 		
 	}
 

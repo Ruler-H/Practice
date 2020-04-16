@@ -29,7 +29,7 @@ public class Array2 {
 		//여러 개의 데이터 안에 포함된 length를
 		//1개의 데이터인 len에 복사한다.
 		//다음부터 len을 이용하게 되면 .length보다 메모리 접근 횟수가 줄어들어서 더 효율적인 반복문 사용이 될 수 있다.
-		int len = groups.length;ㅁ
+		int len = groups.length;
 		for(int i = 0; i<len; i=i+1) {
 			System.out.println(groups[i]);
 		}
